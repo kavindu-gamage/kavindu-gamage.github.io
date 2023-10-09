@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <section id='home' className='w-full h-[700px] pt-28  flex  border-b-[1px] font-titleFont border-b-black'>
       <div className='w-3/5 flex flex-col gap-20'>
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-6'>
           <h2 className='text-xl font-normal'>Hello <span className='text-3xl'>👋.</span></h2>
           <h1 className="text-5xl font-bold text-white">
             I'm <span className="text-designColor capitalize">Kavindu Gamage</span>
@@ -37,20 +37,6 @@ const Home = () => {
           </p>
         </div>
         <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between" >
-          {/* <div >
-            <h2 className='text-base uppercase font-titlefont mb-4'>Reach me</h2>
-            <div className="flex gap-4">
-              <span className="bannerIcon">
-                <FaGithub />
-              </span>
-              <span className="bannerIcon">
-                <FaLinkedinIn />
-              </span>
-              <span className="bannerIcon">
-                <IoMdMail />
-              </span>
-            </div>
-          </div> */}
           <div>
             <h2 className="text-base uppercase font-titleFont mt-[-5px] mb-4">Expertise In</h2>
             <div className="flex  gap-4">
