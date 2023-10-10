@@ -3,6 +3,7 @@ import React from "react";
 import About from "./components/about/About";
 import Banner from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <About/>
+      <Projects/>
     </div>
     
   </div>

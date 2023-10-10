@@ -3,7 +3,7 @@ import { profilePhoto2 } from '../../assests'
 
 const About = () => {
   return (
-    <section id='about' className='w-full h-[800px] py-8 border-b-[1px] border-b-black'>
+    <section id='about' className='w-full h-[800px] py-3 border-b-[1px] border-b-black'>
       <div className='font-titlefont' >
         <h1 className="text-designColor text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
       </div>
@@ -25,10 +25,19 @@ const About = () => {
             </p>
           </div>
           <div>
-            <ul className='w-full grid grid-cols-3'>
-              <li className='aboutList'>Education</li>
-              <li className='aboutList'>Skills</li>
-              <li className='aboutList'>Achievements</li>
+            <ul className='w-full grid grid-cols-3 overflow-hidden '>
+              <li><span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+                Education
+                <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+              </span></li>
+              <li><span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+                Skills
+                <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+              </span></li>
+              <li><span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+                Acievements
+                <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+              </span></li>
             </ul>
           </div>
         </div>
