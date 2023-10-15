@@ -1,3 +1,6 @@
+import ijse from "./images/EduLogos/ijse.png";
+import scl from "./images/EduLogos/scl.png";
+import uni from "./images/EduLogos/uni.png";
 import Blue from "./images/ExLogos/Blue.png";
 import Rota from "./images/ExLogos/Rota.png";
 import Watermark from "./images/ExLogos/Watermark.png";
@@ -11,12 +14,11 @@ import profilePhoto from "./images/profilePhoto.png";
 import profilePhoto2 from "./images/profilePhoto2.png";
 
 export {
-    Blue, Rota, Watermark, White, homeCover,
-    pLogo,
+    Blue, Rota, Watermark, White, homeCover, ijse, pLogo,
     profilePhoto,
     profilePhoto2,
     projectsC1,
     projectsC2,
-    projectsC3
+    projectsC3, scl, uni
 };
 

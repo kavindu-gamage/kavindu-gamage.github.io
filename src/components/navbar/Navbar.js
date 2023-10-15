@@ -26,7 +26,7 @@ const Navbar = () => {
                                     offset={-70}
                                     duration={500}
                                 >
-                                    {title}</Link>
+                                    {title}</Link> 
                             </li>
                         ))
                     }

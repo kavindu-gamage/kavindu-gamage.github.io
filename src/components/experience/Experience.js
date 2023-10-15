@@ -15,13 +15,13 @@ const Experience = () => {
                 <ExCard
                     title="Local Committee Vice President iGV"
                     subTitle="AIESEC in University of Moratuwa"
-                    des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+                    des="Delivered 5 volunteering projects based on UN Sustainable Development Goals while managing a team of 120+ undergraduates and 15+ foreign volunteers."
                     src={Watermark}
                 />
                 <ExCard
                     title="Team Leader - Project SwitchOff"
                     subTitle="AIESEC in University of Moratuwa"
-                    des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+                    des="Planned project activities, managed the project budget, organized events, and collaborated with foreign volunteers to deliver the project."
                     src={Watermark}
                 />
                 <ExCard
