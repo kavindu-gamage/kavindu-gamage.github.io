@@ -25,6 +25,10 @@
         @apply bg-black bg-opacity-40;
     }
 
+    .lanIcon{
+        @apply min-w-max border-b-4   bg-black bg-opacity-25 border-designColor p-2  rounded text-center font-extralight text-sm shadow-shadowOne hover:bg-opacity-50 hover:-translate-y-1 transition-all hover:text-white;
+    }
+
 
 
 

@@ -10,18 +10,18 @@ const About = () => {
   const [achievements, setAchievements] = useState(false);
 
   return (
-    <section id='about' className='w-full h-[900px] py-3 border-b-[1px] border-b-black'>
+    <section id='about' className='w-full h-auto py-3 border-b-[1px] border-b-black'>
       <div className='font-titlefont' >
         <h1 className="text-designColor text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
       </div>
       <div className='w-full lgl:w-1/2 flex justify-center items-center relative'>
-        <div className='w-2/5 flex flex-col gap-20 justify-center items-left'>
+        <div className='w-2/5 flex flex-col  justify-center items-left mt-10'>
           <img
-            className="w-[400px] h-auto lgl:w-[500px] lgl:h-[680px] z-10 justify-center items-center"
+            className="w-[400px] h-[500px] lgl:w-[500px] lgl:h-[680px] justify-center items-center  z-10"
             src={profilePhoto2}
             alt="bannerImg"
           />
-          <div className="absolute bottom-0 w-[400px] h-[500px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+          <div className="w-[400px] h-[500px] absolute lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
 
         </div>
         <div className='w-3/5 flex flex-col gap-6 justify-'>
