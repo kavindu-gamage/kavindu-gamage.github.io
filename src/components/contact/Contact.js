@@ -21,7 +21,7 @@ const Contact = () => {
                 </div>
                 <div className='w-1/2  flex flex-col'>
                     <div className="flex flex-col gap-4">
-                    <h2 className=" font-bold text-2xl font-titleFont ">You can reach out to me through the contact options listed below. I will try to get back to you as fast as I can.</h2>
+                        <h2 className=" font-bold text-2xl font-titleFont ">You can reach out to me through the contact options listed below. I will try to get back to you as fast as I can.</h2>
                         <p className="text-base text-gray-400 flex items-center gap-2">
                             Phone: <span className="text-lightText">+94 76 335 6566</span>
                         </p>
@@ -32,18 +32,27 @@ const Contact = () => {
                     <div className="flex flex-col mt-4 gap-4">
 
                         <div className="flex gap-4">
-                            <span className="contactIcon">
-                                <FaLinkedinIn />
-                            </span>
-                            <span className="contactIcon">
-                                <IoMdMail />
-                            </span>
-                            <span className="contactIcon">
-                                <FaFacebookF />
-                            </span>
-                            <span className="contactIcon">
-                                <FaInstagram />
-                            </span>
+                            <a href='https://www.linkedin.com/in/kavindu-gamage-' target="_blank" rel='noopener noreferrer'>
+                                <span className="contactIcon">
+                                    <FaLinkedinIn />
+                                </span>
+                            </a>
+                            <a href='mailto:kavindu.gamage22@gmail.com' target="_blank" rel='noopener noreferrer'>
+                                <span className="contactIcon">
+                                    <IoMdMail />
+                                </span>
+                            </a>
+                            <a href='https://www.facebook.com/kavindu.gamage23' target="_blank" rel='noopener noreferrer'>
+                                <span className="contactIcon">
+                                    <FaFacebookF />
+                                </span>
+                            </a>
+                            <a href='https://www.instagram.com/kavinduu_98/' target="_blank" rel='noopener noreferrer'>
+                                <span className="contactIcon">
+                                    <FaInstagram />
+                                </span>
+                            </a>
+
 
                         </div>
                     </div>

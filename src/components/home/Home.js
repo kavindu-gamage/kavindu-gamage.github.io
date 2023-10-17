@@ -31,9 +31,9 @@ const Home = () => {
             />
           </h2>
           <p className="text-base font-bodyFont leading-7 tracking-wide text-justify">
-          As a developer, I transform ideas into seamless digital experiences. 
-          My code bridges imagination and reality, crafting user-friendly solutions that drive business success. 
-          I'm passionate about pushing the boundaries of technology to create innovative solutions that leave a lasting impact.
+            As a developer, I transform ideas into seamless digital experiences.
+            My code bridges imagination and reality, crafting user-friendly solutions that drive business success.
+            I'm passionate about pushing the boundaries of technology to create innovative solutions that leave a lasting impact.
           </p>
         </div>
         <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between" >
@@ -65,22 +65,35 @@ const Home = () => {
         {/* <div className="absolute bottom-70 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div> */}
       </div>
       <div className="flex flex-col  gap-8 mt-15">
-        <span className="bannerIconSocial">
-          <FaGithub />
-        </span>
-        <span className="bannerIconSocial">
-          <FaLinkedinIn />
-        </span>
+        <a href='https://github.com/kavindu-gamage' target="_blank" rel='noopener noreferrer'>
+          <span className="bannerIconSocial">
+            <FaGithub />
+          </span>
+        </a>
+
+        <a href='https://www.linkedin.com/in/kavindu-gamage-' target="_blank" rel='noopener noreferrer' >
+          <span className="bannerIconSocial">
+            <FaLinkedinIn />
+          </span>
+        </a>
+        <a href='mailto:kavindu.gamage22@gmail.com' target="_blank" rel='noopener noreferrer'>
         <span className="bannerIconSocial">
           <IoMdMail />
         </span>
+        </a>
+        <a href='https://www.instagram.com/kavinduu_98/' target="_blank" rel='noopener noreferrer'>
         <span className="bannerIconSocial">
           <FaInstagram />
         </span>
+        </a>
+       
+        <a href='https://stackoverflow.com/users/22234315/kavindu-gamage?tab=profile' target="_blank" rel='noopener noreferrer'>
         <span className="bannerIconSocial">
           <FaStackOverflow />
         </span>
+        </a>
         
+
       </div>
 
     </section>
