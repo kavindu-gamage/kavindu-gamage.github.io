@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Fade } from 'react-reveal';
 import { profilePhoto2 } from '../../assests';
 import Achievements from './Achievements';
 import Education from './Education';
@@ -12,11 +11,9 @@ const About = () => {
 
   return (
     <section id='about' className='w-full h-auto py-3 border-b-[1px] border-b-black'>
-      <Fade top cascade duration={1600}>
         <div className='font-titlefont' >
           <h1 className="text-designColor text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
         </div>
-      </Fade>
 
       <div className='w-full lgl:w-1/2 flex justify-center items-center relative'>
         
