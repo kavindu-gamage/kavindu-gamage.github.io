@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Fade } from 'react-reveal';
 import { profilePhoto2 } from '../../assests';
 import Achievements from './Achievements';
 import Education from './Education';
@@ -11,19 +12,24 @@ const About = () => {
 
   return (
     <section id='about' className='w-full h-auto py-3 border-b-[1px] border-b-black'>
-      <div className='font-titlefont' >
-        <h1 className="text-designColor text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
-      </div>
-      <div className='w-full lgl:w-1/2 flex justify-center items-center relative'>
-        <div className='w-2/5 flex flex-col  justify-center items-left mt-10'>
-          <img
-            className="w-[400px] h-[500px] lgl:w-[500px] lgl:h-[680px] justify-center items-center  z-10"
-            src={profilePhoto2}
-            alt="bannerImg"
-          />
-          <div className="w-[400px] h-[500px] absolute lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
-
+      <Fade top cascade duration={1600}>
+        <div className='font-titlefont' >
+          <h1 className="text-designColor text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
         </div>
+      </Fade>
+
+      <div className='w-full lgl:w-1/2 flex justify-center items-center relative'>
+        
+          <div className='w-2/5 flex flex-col  justify-center items-left mt-10'>
+            <img
+              className="w-[400px] h-[500px] lgl:w-[500px] lgl:h-[680px] justify-center items-center  z-10"
+              src={profilePhoto2}
+              alt="bannerImg"
+            />
+            <div className="w-[400px] h-[500px] absolute lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+
+          </div>
+        
         <div className='w-3/5 flex flex-col gap-6 justify-'>
           <div >
             <p className='text-base font-bodyFont leading-7 tracking-wide text-justify '>
@@ -88,6 +94,9 @@ const About = () => {
           </div>
         </div>
       </div>
+
+
+
 
     </section>
   )
