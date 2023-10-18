@@ -11,14 +11,14 @@ const About = () => {
 
   return (
     <section id='about' className='w-full h-auto py-3 border-b-[1px]  border-b-black'>
-      <div className='font-titlefont' >
+      <div className='font-titlefont' > 
         <h1 className="text-designColor text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
       </div>
 
-      <div className='w-full flex flex-col  lgl:flex-row  justify-center items-center  gap-20 relative'>
+      <div className='w-full flex flex-col  lgl:flex-row  justify-center items-center  gap-5 relative'>
         <div className=' w-full lgl:w-2/5 flex flex-col  lgl:mb-0 mb-10 justify-center items-center lgl:items-left mt-10'>
           <img
-            className="w-[400px] h-[500px] justify-center items-center  z-10"
+            className="w-[400px] h-[500px] justify-center  items-center  z-10"
             src={profilePhoto2}
             alt="bannerImg"
           />
@@ -30,6 +30,8 @@ const About = () => {
             <p className='text-base font-bodyFont leading-7 tracking-wide text-justify '>
               A fast learner and hardworking individual who strives for perfection in every endeavor.
               I thrive on learning new things and love to inspire and collaborate within a team environment to achieve excellence.
+              {/* My code bridges imagination and reality, crafting user-friendly solutions that drive business success.
+              I'm passionate about pushing the boundaries of technology to create innovative solutions that leave a lasting impact. */}
             </p>
           </div>
           <div>

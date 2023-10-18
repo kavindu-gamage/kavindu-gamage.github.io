@@ -8,7 +8,7 @@ const Experience = () => {
             <div className='flex justify-center  items-center'>
                 <h1 className="text-designColor text-5xl font-bold py-5">Experience <span className='text-white'>&</span> Volunteering </h1>
             </div>
-            <div className='w-full flex flex-col xl:flex-row  justify-start '>
+            <div className='w-full flex flex-col xl:flex-row gap-10  justify-start '>
                 <div className='w-full xl:w-1/2'>
                     <Left />
                 </div>

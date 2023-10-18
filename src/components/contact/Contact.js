@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { profilePhoto } from '../../assests';
 
@@ -10,18 +10,18 @@ const Contact = () => {
             <div className='flex justify-center  items-center'>
                 <h1 className="text-designColor text-5xl font-bold py-5">Contact <span className='text-white'>Me</span> </h1>
             </div>
-            <div className='w-full flex lgl:flex-row flex-col  justify-center items-center relative  gap-20'>
+            <div className='w-full flex lgl:flex-row flex-col  justify-center items-center relative  gap-5'>
                 <div className=' w-full lgl:w-2/5 flex flex-col gap-20 lgl:mb-0 mb-10 justify-center items-center  lgl:items-left'>
                     <img
-                        className="w-[400px] h-auto  z-10 justify-center items-center"
+                        className="w-[400px] h-[500px]  z-10 justify-center items-center"
                         src={profilePhoto}
                         alt="bannerImg"
                     />
-                    <div className="absolute  w-[400px] h-[500px]  bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+                    <div className=" w-[400px] h-[500px] absolute  bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
 
                 </div>
-                <div className='w-full lgl:w-1/2  flex flex-col lgl:items-left items-center justify-center'>
-                    <div className="flex flex-col gap-4">
+                <div className='w-full lgl:w-1/2  flex flex-col '>
+                    <div className="flex flex-col gap-4 leading-10">
                         <h2 className=" font-bold text-2xl font-titleFont ">You can reach out to me through the contact options listed below. I will try to get back to you as fast as I can.</h2>
                         <p className="text-base text-gray-400 flex gap-2">
                             Phone: <span className="text-lightText">+94 76 335 6566</span>
@@ -38,6 +38,11 @@ const Contact = () => {
                                     <FaLinkedinIn />
                                 </span>
                             </a>
+                            <a href='https://github.com/kavindu-gamage' target="_blank" rel='noopener noreferrer'>
+            <span className="contactIcon">
+              <FaGithub />
+            </span>
+          </a>
                             <a href='mailto:kavindu.gamage22@gmail.com' target="_blank" rel='noopener noreferrer'>
                                 <span className="contactIcon">
                                     <IoMdMail />

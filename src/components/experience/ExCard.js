@@ -9,10 +9,10 @@ const ExCard = ({ title, subTitle, des, src }) => {
                 </span>
             </div>
             <div className="w-full  bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg p-4 lgl:px-10 flex flex-col justify-center gap-6 lgl:gap-10 shadow-shadowOne">
-                <div className="flex  lgl:flex-row justify-between gap-4 lgl:gap-0 lgl:items-center">
+                <div className="flex  justify-between gap-4  lgl:items-center">
                     <div className='w-1/8 flex items-center justify-left' >
                         <img
-                            className=" w-44 h-100 object-cover group-hover:scale-110 duration-300 cursor-pointer rounded-lg"
+                            className=" w-44 h-100 object-cover group-hover:scale-110 duration-300 cursor-pointer "
                             src={src}
                             alt="src"
                         />
