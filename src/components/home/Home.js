@@ -16,8 +16,8 @@ const Home = () => {
   });
 
   return (
-    <section id='home' className='w-full h-[700px] pt-28  flex  border-b-[1px] font-titleFont border-b-black'>
-      <div className='w-3/5 flex flex-col gap-20'>
+    <section id='home' className='w-full lgl:w-full h-auto xl:h-[700px] pt-28  flex flex-col lgl:flex-row  border-b-[1px] font-titleFont border-b-black'>
+      <div className='w-full lgl:w-3/5 flex flex-col gap-20'>
         <Fade top cascade duration={800}>
           <div className='flex flex-col gap-6'>
             <h2 className='text-xl font-normal'>Hello <span className='text-3xl'>👋.</span></h2>
@@ -40,9 +40,9 @@ const Home = () => {
           </div>
         </Fade>
         
-          <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between" >
+          <div  >
           <Fade top cascade duration={700} delay={400}>
-            <div>
+            <div className="flex flex-col gap-0 justify-between" >
               <h2 className="text-base uppercase font-titleFont mt-[-5px] mb-4">Expertise In</h2>
               <div className="flex  gap-4">
                 <span className="bannerIcon">
@@ -63,10 +63,10 @@ const Home = () => {
           </div>
         
       </div>
-      <div className="w-2/5 flex justify-center items-center ">
+      <div className="w-full lgl:w-2/5 flex flex-col lgl:flex-row justify-center items-center ">
         <Fade cascade duration={2600}>
           <img
-            className="w-[480px] h-auto lgl:w-[150px] lgl:h-[680px] z-10 ml-20 mt-[-200px]  "
+            className="w-[480px] h-auto lgl:w-[480px] lgl:h-[auto]  lgl:ml-20 lgl:mt-[-200px]  "
             src={homeCover}
             alt="bannerImg"
           />
@@ -74,7 +74,7 @@ const Home = () => {
 
         {/* <div className="absolute bottom-70 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div> */}
       </div>
-      <div className="flex flex-col  gap-8 mt-15">
+      <div className="flex flex-row lgl:flex-col justify-between lgl:justify-normal mb-10 lgl:gap-8 lgl:mt-15">
         <Fade top cascade duration={1600} delay={350}>
           <a href='https://github.com/kavindu-gamage' target="_blank" rel='noopener noreferrer'>
             <span className="bannerIconSocial">

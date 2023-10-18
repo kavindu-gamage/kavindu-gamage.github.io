@@ -8,7 +8,7 @@ const Right = () => {
             <div className="flex flex-col gap-4">
                 <h2 className="text-3xl font-bold">Volunteering Experience</h2>
             </div>
-            <div className="mt-6 lgl:mt-14 w-11/12 h-[750px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+            <div className="mt-6 lgl:mt-14 w-11/12 lgl:h-[750px] h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 ">
                 <ExCard
                     title="Local Committee Vice President iGV"
                     subTitle="AIESEC in University of Moratuwa"

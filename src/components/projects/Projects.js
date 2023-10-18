@@ -11,7 +11,7 @@ const Projects = () => {
             <div className='flex justify-center  items-center'>
                 <h1 className="text-designColor text-5xl font-bold py-5">My <span className='text-white'>Projects</span> </h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-8 xl:gap-14'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-8 gap-10 xl:gap-14'>
                 <ProjectCard
                     title="Hotel Reservation System"
                     des='An online hotel reservation system with a user-friendly interface, admin dashboard, role-based access control, and room filtering capabilities.'

@@ -10,24 +10,22 @@ const About = () => {
   const [achievements, setAchievements] = useState(false);
 
   return (
-    <section id='about' className='w-full h-auto py-3 border-b-[1px] border-b-black'>
-        <div className='font-titlefont' >
-          <h1 className="text-designColor text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
+    <section id='about' className='w-full h-auto py-3 border-b-[1px]  border-b-black'>
+      <div className='font-titlefont' >
+        <h1 className="text-designColor text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
+      </div>
+
+      <div className='w-full flex flex-col  lgl:flex-row  justify-center items-center  gap-20 relative'>
+        <div className=' w-full lgl:w-2/5 flex flex-col  lgl:mb-0 mb-10 justify-center items-center lgl:items-left mt-10'>
+          <img
+            className="w-[400px] h-[500px] justify-center items-center  z-10"
+            src={profilePhoto2}
+            alt="bannerImg"
+          />
+          <div className="w-[400px] h-[500px] absolute  bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
         </div>
 
-      <div className='w-full lgl:w-1/2 flex justify-center items-center relative'>
-        
-          <div className='w-2/5 flex flex-col  justify-center items-left mt-10'>
-            <img
-              className="w-[400px] h-[500px] lgl:w-[500px] lgl:h-[680px] justify-center items-center  z-10"
-              src={profilePhoto2}
-              alt="bannerImg"
-            />
-            <div className="w-[400px] h-[500px] absolute lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
-
-          </div>
-        
-        <div className='w-3/5 flex flex-col gap-6 justify-'>
+        <div className=' w-full lgl:w-3/5 flex flex-col   gap-6'>
           <div >
             <p className='text-base font-bodyFont leading-7 tracking-wide text-justify '>
               A fast learner and hardworking individual who strives for perfection in every endeavor.
@@ -35,7 +33,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <ul className='w-full text-lg font-semibold grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
+            <ul className='w-full text-lg font-semibold grid grid-cols-3 xl:grid-cols-3'>
               <li
                 onClick={() =>
                   setEducationData(true) &
