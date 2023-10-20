@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaDownload, FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { profilePhoto } from '../../assests';
 
@@ -39,10 +39,10 @@ const Contact = () => {
                                 </span>
                             </a>
                             <a href='https://github.com/kavindu-gamage' target="_blank" rel='noopener noreferrer'>
-            <span className="contactIcon">
-              <FaGithub />
-            </span>
-          </a>
+                                <span className="contactIcon">
+                                    <FaGithub />
+                                </span>
+                            </a>
                             <a href='mailto:kavindu.gamage22@gmail.com' target="_blank" rel='noopener noreferrer'>
                                 <span className="contactIcon">
                                     <IoMdMail />
@@ -59,8 +59,16 @@ const Contact = () => {
                                 </span>
                             </a>
 
-
                         </div>
+                    </div>
+                    <div className='flex flex-row mt-10 gap-4 items-center'>
+                        <h3>Download CV</h3>
+                        <a href='https://drive.google.com/file/d/13JcZpvAg1M_8g_9P3SFoaGQbsYelK88-/view?usp=sharing' target="_blank" rel='noopener noreferrer'>
+                                <span className="contactIcon">
+                                <FaDownload/>
+                                </span>
+                            </a>
+                        
                     </div>
                 </div>
             </div>
