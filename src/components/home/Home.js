@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <section id='home' className='w-full lgl:w-full h-auto xl:h-[700px] pt-28  flex flex-col lgl:flex-row  border-b-[1px] font-titleFont border-b-black'>
-      <div className='w-full lgl:w-3/5 flex flex-col gap-20'>
+      <div className='w-full lgl:w-3/5 flex flex-col gap-20 '>
         <Fade top cascade duration={800}>
           <div className='flex flex-col gap-6'>
             <h2 className='text-xl font-normal'>Hello <span className='text-3xl'>👋.</span></h2>
@@ -28,7 +28,7 @@ const Home = () => {
                 cursorColor="#ff014f"
               />
             </h2>
-            <p className="text-base font-bodyFont leading-7 tracking-wide text-justify">
+            <p className="text-base font-bodyFont leading-7  tracking-wide text-justify">
               As a developer, I transform ideas into seamless digital experiences.
               My code bridges imagination and reality, crafting user-friendly solutions that drive business success.
               I'm passionate about pushing the boundaries of technology to create innovative solutions that leave a lasting impact.
@@ -36,7 +36,7 @@ const Home = () => {
           </div>
         </Fade>
         <Fade top cascade duration={700} delay={400}>
-        <div className='flex gap-16 mb-10 xl:mb-0'  >
+        <div className='flex xl:flex-row lgl:flex-row mdl:flex-row flex-col xs:gap-10  gap-16 mb-10 xl:mb-0'  >
           
             <a href="#projects" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white border-2 border-designColor rounded-md hover:bg-designColor sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
               View Projects

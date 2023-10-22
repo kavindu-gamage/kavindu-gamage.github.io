@@ -3,10 +3,10 @@ import React from 'react';
 const Skills = ({title, skills}) => {
   const SkillCategory = ({ title, skills }) => (
     <div className="">
-      <h2 className='text-lg font-semibold mb-2 mt-6 text-gray-400  '>{title}</h2>
-      <div className='flex gap-6'>
+      <h2 className='text-md mdl:text-lg font-semibold mb-2 mt-6 text-gray-400  '>{title}</h2>
+      <div className='flex flex-wrap mdl:flex-row gap-6'>
         {skills.map((skill, index) => (
-          <div className="lanIcon" key={index}>
+          <div className="lanIcon" key={index} >
             {skill}
           </div>
         ))}

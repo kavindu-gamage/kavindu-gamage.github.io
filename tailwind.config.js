@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-        xs: "320px",
+        xs: "360px",
         sm: "375px",
         sml: "500px",
         md: "667px",
@@ -26,6 +26,11 @@ module.exports = {
       boxShadow: {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
       },
+      fontSize:{
+        'xxs':'12px',
+        '2xs':'10px',
+
+      }
     },
   },
   plugins: [],

@@ -18,11 +18,11 @@ const About = () => {
       <div className='w-full flex flex-col  lgl:flex-row  justify-center items-center  gap-5 relative'>
         <div className=' w-full lgl:w-2/5 flex flex-col  lgl:mb-0 mb-10 justify-center items-center lgl:items-left mt-10'>
           <img
-            className="w-[400px] h-[500px] justify-center  items-center  z-10"
+            className=" w-[300px] h-[400px] mdl:w-[400px] mdl:h-[500px]  justify-center  items-center  z-10"
             src={profilePhoto2}
             alt="bannerImg"
           />
-          <div className="w-[400px] h-[500px] absolute  bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+          <div className="w-[300px] h-[400px] mdl:w-[400px] mdl:h-[500px]  absolute  bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
         </div>
 
         <div className=' w-full lgl:w-3/5 flex flex-col   gap-6'>
