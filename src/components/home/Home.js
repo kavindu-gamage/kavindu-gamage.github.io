@@ -12,15 +12,15 @@ const Home = () => {
   });
 
   return (
-    <section id='home' className='w-full lgl:w-full h-auto xl:h-[700px] pt-28  flex flex-col lgl:flex-row  border-b-[1px] font-titleFont border-b-black'>
+    <section id='home' className='w-full lgl:w-full h-auto xl:h-[750px] pt-10 mdl:pt-28  flex flex-col lgl:flex-row  border-b-[1px] font-titleFont border-b-black'>
       <div className='w-full lgl:w-3/5 flex flex-col gap-20 '>
         <Fade top cascade duration={800}>
-          <div className='flex flex-col gap-6'>
-            <h2 className='text-xl font-normal'>Hello <span className='text-3xl'>👋.</span></h2>
-            <h1 className="text-5xl font-bold text-white">
-              I'm <span className="text-designColor capitalize">Kavindu Gamage</span>
+          <div className='flex flex-col gap-3 mdl:gap-6'>
+            <h2 className=' text-base  mdl:text-xl font-normal'>Hello <span className='text-3xl'>👋.</span></h2>
+            <h1 className=" text-2xl mdl:text-5xl font-bold text-white">
+              I'm <span className="text-designColor capitalize ">Kavindu Gamage</span>
             </h1>
-            <h2 className="text-4xl font-bold text-white">
+            <h2 className="text-2xl mdl:text-4xl font-bold text-white ">
               a <span>{text}</span>
               <Cursor
                 cursorBlinking="false"
@@ -28,7 +28,7 @@ const Home = () => {
                 cursorColor="#ff014f"
               />
             </h2>
-            <p className="text-base font-bodyFont leading-7  tracking-wide text-justify">
+            <p className="text-sm mdl:text-base font-bodyFont leading-7  tracking-wide text-justify">
               As a developer, I transform ideas into seamless digital experiences.
               My code bridges imagination and reality, crafting user-friendly solutions that drive business success.
               I'm passionate about pushing the boundaries of technology to create innovative solutions that leave a lasting impact.
@@ -36,13 +36,13 @@ const Home = () => {
           </div>
         </Fade>
         <Fade top cascade duration={700} delay={400}>
-        <div className='flex xl:flex-row lgl:flex-row mdl:flex-row flex-col xs:gap-10  gap-16 mb-10 xl:mb-0'  >
+        <div className='flex  mdl:flex-row flex-col gap-7  mdl:gap-16 mb-10 -mt-14 mdl:mt-4'  >
           
-            <a href="#projects" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white border-2 border-designColor rounded-md hover:bg-designColor sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
+            <a href="#projects" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-md mdl:text-lg text-white border-2 border-designColor rounded-md hover:bg-designColor sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
               View Projects
               <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
-            <a href="#contact" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white border-2 border-designColor rounded-md hover:bg-designColor sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
+            <a href="#contact" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-md mdl:text-lg text-white border-2 border-designColor rounded-md hover:bg-designColor sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
               Contact Me
             </a>
           
@@ -70,10 +70,10 @@ const Home = () => {
         </Fade>
 
       </div>
-      <div className="w-full lgl:w-2/5 flex flex-col lgl:flex-row justify-center items-center ">
+      <div className="w-full lgl:w-2/5 flex flex-col lgl:flex-row justify-center  items-center ">
         <Fade cascade duration={2600}>
           <img
-            className="w-[480px] h-auto lgl:w-[480px] lgl:h-[auto]  lgl:ml-20 lgl:mt-[-200px]  "
+            className="w-[480px] h-auto lgl:w-[480px] lgl:h-[auto]  lgl:ml-20 -mt-10 lgl:mt-[-200px]  "
             src={homeCover}
             alt="bannerImg"
           />

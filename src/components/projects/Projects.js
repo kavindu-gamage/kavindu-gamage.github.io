@@ -7,11 +7,11 @@ import ProjectCard from './ProjectCard'
 
 const Projects = () => {
     return (
-        <section id='projects' className="w-full py-10  border-b-[1px] border-b-black">
+        <section id='projects' className="w-full  py-5  border-b-[1px] border-b-black">
             <div className='flex justify-center  items-center'>
-                <h1 className="text-designColor text-5xl font-bold py-5">My <span className='text-white'>Projects</span> </h1>
+                <h1 className="text-designColor text-3xl mdl:text-5xl font-bold  mdl:py-5">My <span className='text-white'>Projects</span> </h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-8 gap-10 xl:gap-14'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-4 mdl:mt-8 gap-10 xl:gap-14'>
                 <ProjectCard
                     title="Hotel Reservation System"
                     des='An online hotel reservation system with a user-friendly interface, admin dashboard, role-based access control, and room filtering capabilities.'

@@ -5,28 +5,28 @@ import { profilePhoto } from '../../assests';
 
 const Contact = () => {
     return (
-        <section id="contact" className="w-full h-auto py-10 border-b-[1px] border-b-black">
+        <section id="contact" className="w-full h-auto py-5 border-b-[1px] border-b-black">
 
             <div className='flex justify-center  items-center'>
-                <h1 className="text-designColor text-5xl font-bold py-5">Contact <span className='text-white'>Me</span> </h1>
+                <h1 className="text-designColor text-3xl mdl:text-5xl font-bold py-5">Contact <span className='text-white'>Me</span> </h1>
             </div>
             <div className='w-full flex lgl:flex-row flex-col  justify-center items-center relative  gap-5'>
-                <div className=' w-full lgl:w-2/5 flex flex-col gap-20 lgl:mb-0 mb-10 justify-center items-center  lgl:items-left'>
+                <div className=' w-full lgl:w-2/5 flex flex-col gap-20 lgl:mb-0 mb-5 justify-center items-center  lgl:items-left'>
                     <img
-                        className="w-[400px] h-[500px]  z-10 justify-center items-center"
+                        className=" w-[300px] h-[400px] mdl:w-[400px] mdl:h-[500px]  z-10 justify-center items-center"
                         src={profilePhoto}
                         alt="bannerImg"
                     />
-                    <div className=" w-[400px] h-[500px] absolute  bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+                    <div className=" w-[300px] h-[400px] mdl:w-[400px] mdl:h-[500px] absolute  bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
 
                 </div>
                 <div className='w-full lgl:w-1/2  flex flex-col '>
                     <div className="flex flex-col gap-4 leading-10">
-                        <h2 className=" font-bold text-2xl font-titleFont ">You can reach out to me through the contact options listed below. I will try to get back to you as fast as I can.</h2>
-                        <p className="text-base text-gray-400 flex gap-2">
+                        <h2 className=" font-bold text-base mdl:text-2xl font-titleFont ">You can reach out to me through the contact options listed below. I will try to get back to you as fast as I can.</h2>
+                        <p className="text-sm mdl:text-base text-gray-400 flex gap-2">
                             Phone: <span className="text-lightText">+94 76 335 6566</span>
                         </p>
-                        <p className="text-base text-gray-400 flex items-center gap-2">
+                        <p className="text-sm mdl:text-base text-gray-400 flex items-center gap-2">
                             Email: <span className="text-lightText">kavindu.gamage22@gmail.com</span>
                         </p>
                     </div>
@@ -61,8 +61,8 @@ const Contact = () => {
 
                         </div>
                     </div>
-                    <div className='flex flex-row mt-10 gap-4 items-center'>
-                        <h3>Download CV</h3>
+                    <div className='flex flex-row mt-7 mdl:mt-10 gap-4 items-center'>
+                        <h3 className='text-sm mdl:text-base'>Download CV</h3>
                         <a href='https://drive.google.com/file/d/13JcZpvAg1M_8g_9P3SFoaGQbsYelK88-/view?usp=sharing' target="_blank" rel='noopener noreferrer'>
                                 <span className="contactIcon">
                                 <FaDownload/>

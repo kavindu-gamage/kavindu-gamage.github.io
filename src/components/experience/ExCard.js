@@ -9,22 +9,22 @@ const ExCard = ({ title, subTitle, des, src }) => {
                 </span>
             </div>
             <div className="w-full  bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg p-4 lgl:px-10 flex flex-col justify-center gap-6 lgl:gap-10 shadow-shadowOne">
-                <div className="flex  justify-between gap-4  lgl:items-center">
-                    <div className='w-1/8 flex items-center justify-left' >
+                <div className="flex mdl:flex-row flex-col  justify-between gap-4  lgl:items-center">
+                    <div className='w-1/8 flex items-center justify-center mdl:justify-left' >
                         <img
-                            className=" w-44 h-100 object-cover group-hover:scale-110 duration-300 cursor-pointer "
+                            className=" w-16 h-100 mdl:w-44 mdl:h-100 object-cover group-hover:scale-110 duration-300 cursor-pointer "
                             src={src}
                             alt="src"
                         />
                     </div>
                     <div className="w-7/8 items-center text-justify justify-left ">
-                        <h3 className="text-xl md:text-xl font-semibold group-hover:text-designColor  text-designColor  duration-300">
+                        <h3 className="text-base mdl:text-xl font-semibold group-hover:text-designColor  text-designColor  duration-300">
                             {title}
                         </h3>
-                        <p className="text-sm mt-1 mb-3 text-gray-200 group-hover:text-gray-100 duration-300">
+                        <p className="text-xs mdl:text-sm mt-1 mb-3 text-gray-200 group-hover:text-gray-100 duration-300">
                             {subTitle}
                         </p>
-                        <p className="text-xs md:text-sm  text-gray-500 group-hover:text-gray-400 duration-300">
+                        <p className="text-xxs mdl:text-xs md:text-sm  text-gray-500 group-hover:text-gray-400 duration-300">
                             {des}
                         </p>
                     </div>

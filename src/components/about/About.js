@@ -11,12 +11,12 @@ const About = () => {
 
   return (
     <section id='about' className='w-full h-auto py-3 border-b-[1px]  border-b-black'>
-      <div className='font-titlefont' > 
-        <h1 className="text-designColor text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
+      <div className='font-titlefont ' > 
+        <h1 className="text-designColor   text-3xl mdl:text-5xl font-bold py-5">About <span className='text-white'>Me</span> </h1>
       </div>
 
       <div className='w-full flex flex-col  lgl:flex-row  justify-center items-center  gap-5 relative'>
-        <div className=' w-full lgl:w-2/5 flex flex-col  lgl:mb-0 mb-10 justify-center items-center lgl:items-left mt-10'>
+        <div className=' w-full lgl:w-2/5 flex flex-col  lgl:mb-0 mb-4 justify-center items-center lgl:items-left mt-1 mdl:mt-10'>
           <img
             className=" w-[300px] h-[400px] mdl:w-[400px] mdl:h-[500px]  justify-center  items-center  z-10"
             src={profilePhoto2}
@@ -27,7 +27,7 @@ const About = () => {
 
         <div className=' w-full lgl:w-3/5 flex flex-col   gap-6'>
           <div >
-            <p className='text-base font-bodyFont leading-7 tracking-wide text-justify '>
+            <p className='text-sm mdl:text-base font-bodyFont leading-7 tracking-wide text-justify '>
               A fast learner and hardworking individual who strives for perfection in every endeavor.
               I thrive on learning new things and love to inspire and collaborate within a team environment to achieve excellence.
               {/* My code bridges imagination and reality, crafting user-friendly solutions that drive business success.
@@ -35,7 +35,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <ul className='w-full text-lg font-semibold grid grid-cols-3 xl:grid-cols-3'>
+            <ul className='w-full text-base mdl:text-lg font-semibold grid grid-cols-3 xl:grid-cols-3'>
               <li
                 onClick={() =>
                   setEducationData(true) &
