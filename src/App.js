@@ -6,6 +6,7 @@ import AboutMe from "./pages/getToKnow/AboutMe";
 import Banner from "./pages/home/Home";
 import Navbar from "./pages/navbar/Navbar";
 import Services from "./pages/services/Services";
+import Technologies from "./pages/skills/Technologies";
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -41,6 +42,7 @@ function App() {
       <Banner/>
       <Services/>
       <AboutMe/>
+     <Technologies/>
       {/* <About/>
       <Projects/>
       <Experience/>

@@ -17,8 +17,22 @@ import profilePhoto from "./images/profilePhoto.png";
 import profilePhoto2 from "./images/profilePhoto2.png";
 import profilePhoto3 from "./images/profilePhoto3.png";
 
+import Aws from "./images/skillsIcons/AWS.png";
+import Express from "./images/skillsIcons/Express.png";
+import Go from "./images/skillsIcons/Go.png";
+import Java from "./images/skillsIcons/Java.png";
+import Node from "./images/skillsIcons/Node.png";
+import Spring from "./images/skillsIcons/Spring.png";
+import Docker from "./images/skillsIcons/docker.png";
+import GitLab from "./images/skillsIcons/gitlab.png";
+import GoogleCloud from "./images/skillsIcons/googlecloud.png";
+import JavaScript from "./images/skillsIcons/javascript.png";
+import MongoDb from "./images/skillsIcons/mongodb.png";
+import MySql from "./images/skillsIcons/mysql.png";
+import Reactj from "./images/skillsIcons/react.png";
+import TypeScript from "./images/skillsIcons/typescript.png";
 export {
-    Blue, Crown, Rota, Virtusa, Watermark, White, homeCover, ijse, pLogo, profilePhoto,
+    Aws, Blue, Crown, Docker, Express, GitLab, Go, GoogleCloud, Java, JavaScript, MongoDb, MySql, Node, Reactj, Rota, Spring, TypeScript, Virtusa, Watermark, White, homeCover, ijse, pLogo, profilePhoto,
     profilePhoto2,
     profilePhoto3,
     projectsC1,
