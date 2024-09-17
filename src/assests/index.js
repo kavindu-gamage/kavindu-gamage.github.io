@@ -15,10 +15,12 @@ import homeCover from "./images/homeCover.png";
 import pLogo from "./images/pLogo.png";
 import profilePhoto from "./images/profilePhoto.png";
 import profilePhoto2 from "./images/profilePhoto2.png";
+import profilePhoto3 from "./images/profilePhoto3.png";
 
 export {
     Blue, Crown, Rota, Virtusa, Watermark, White, homeCover, ijse, pLogo, profilePhoto,
     profilePhoto2,
+    profilePhoto3,
     projectsC1,
     projectsC2,
     projectsC3, scl, tMac, uni

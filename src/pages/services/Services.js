@@ -5,7 +5,9 @@ import { ServiceCard } from "../../components/ServiceCard/ServiceCard";
 
 const Services = () => {
   return (
-    <div className=" flex flex-col items-center text-white py-16">
+    <section id='about' className='w-full h-auto py-3 border-b-[1px]  border-b-black'>
+
+    <div className=" flex flex-col items-center text-white py-10">
       <PageTitle text1="Services" text2="Specialized In" />
       <div className="flex flex-col lg:flex-row justify-center gap-4 p-10">
           <ServiceCard
@@ -28,6 +30,7 @@ const Services = () => {
           />
       </div>
     </div>
+    </section>
   );
 };
 export default Services;

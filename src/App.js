@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import { TERipple } from "tw-elements-react";
 import Footer from "./pages/footer/Footer";
+import AboutMe from "./pages/getToKnow/AboutMe";
 import Banner from "./pages/home/Home";
 import Navbar from "./pages/navbar/Navbar";
 import Services from "./pages/services/Services";
@@ -39,6 +40,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <Services/>
+      <AboutMe/>
       {/* <About/>
       <Projects/>
       <Experience/>
