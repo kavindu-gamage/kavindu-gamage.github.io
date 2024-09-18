@@ -42,7 +42,9 @@ function App() {
       <Banner/>
       <Services/>
       <AboutMe/>
+      {/* <WorkExperience/> */}
      <Technologies/>
+     
       {/* <About/>
       <Projects/>
       <Experience/>

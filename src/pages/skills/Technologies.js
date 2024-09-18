@@ -26,7 +26,7 @@ const Technologies = () => {
       <div className="flex flex-col text-white pt-10">
         <PageTitle text1="Tech Stack" text2="Skilled With" />
       </div>
-      <div class="grid md:grid-cols-5 lg:grid-cols-7 sm:grid-cols-3 xs:grid-cols-2  gap-4 p-10 mb-20 text-center ">
+      <div class="grid md:grid-cols-5 lg:grid-cols-7 sm:grid-cols-3 xs:grid-cols-2  gap-8 p-5 lg:p-20 mb-10 text-center ">
         <div className="flex flex-col items-center justify-end">
           <img src={Spring} alt="SpringBoot" className="w-16 h-auto " />
           <h3 className="text-xs  font-['Plus Jakarta Sans'] font-medium  text-designColor">
