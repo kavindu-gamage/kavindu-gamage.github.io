@@ -65,15 +65,15 @@ const WorkExperience = () => {
   return (
     <section
       id="WorkExperience"
-      className="w-full h-auto py-8 border-b-[1px] border-b-black"
+      className="w-full h-auto py-3 border-b-[1px] border-b-black"
     >
       {/* Title Section */}
 
       {/* Main Grid Layout */}
-      <div className="flex flex-col lg:flex-row mt-8 space-y-6 lg:space-y-0 lg:space-x-12 lg:p-10">
+      <div className="flex flex-col lg:flex-row lg:mt-8 lg:mb-10 mt-2 space-y-6 lg:space-y-0 lg:space-x-12 lg:p-8 p-8">
         {/* Left Sidebar with Company List */}
         <div className="w-full lg:w-1/3">
-          <div className="flex flex-col text-white mb-8">
+          <div className="flex flex-col text-white mb-4 lg:mb-8">
             <PageTitle text1="Career Path" text2="Work Experiences" />
           </div>
           <div className="space-y-4">
@@ -99,10 +99,10 @@ const WorkExperience = () => {
         </div>
 
         {/* Right Content Section */}
-        <div className="flex w-full lg:w-3/4 items-center">
+        <div className="flex w-full lg:w-3/4 items-center ">
           {/* Dynamically Displaying the Selected Company's Experience */}
           <div className="space-y-4">
-            <div className="mb-6">
+            <div className="mb-6 ">
               <h2 className="text-2xl font-semibold font-['Inter'] text-white mb-4">
                 {experienceData[selectedCompany].title}{" "}
                 <span className="text-designColor">
