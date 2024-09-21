@@ -17,6 +17,7 @@ import profilePhoto from "./images/profilePhoto.png";
 import profilePhoto2 from "./images/profilePhoto2.png";
 import profilePhoto3 from "./images/profilePhoto3.png";
 
+import avatar1 from "./images/avatar1.png";
 import Aws from "./images/skillsIcons/AWS.png";
 import Express from "./images/skillsIcons/Express.png";
 import Go from "./images/skillsIcons/Go.png";
@@ -32,7 +33,7 @@ import MySql from "./images/skillsIcons/mysql.png";
 import Reactj from "./images/skillsIcons/react.png";
 import TypeScript from "./images/skillsIcons/typescript.png";
 export {
-    Aws, Blue, Crown, Docker, Express, GitLab, Go, GoogleCloud, Java, JavaScript, MongoDb, MySql, Node, Reactj, Rota, Spring, TypeScript, Virtusa, Watermark, White, homeCover, ijse, pLogo, profilePhoto,
+    Aws, Blue, Crown, Docker, Express, GitLab, Go, GoogleCloud, Java, JavaScript, MongoDb, MySql, Node, Reactj, Rota, Spring, TypeScript, Virtusa, Watermark, White, avatar1, homeCover, ijse, pLogo, profilePhoto,
     profilePhoto2,
     profilePhoto3,
     projectsC1,

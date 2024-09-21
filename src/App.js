@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { TERipple } from "tw-elements-react";
+import ConnectWithMe from "./pages/connectWithMe/ConnectWithMe";
 import Footer from "./pages/footer/Footer";
 import AboutMe from "./pages/getToKnow/AboutMe";
 import Banner from "./pages/home/Home";
@@ -45,6 +46,7 @@ function App() {
       <AboutMe/>
       <WorkExperience/>
      <Technologies/>
+     <ConnectWithMe/>
      
       {/* <About/>
       <Projects/>
