@@ -45,27 +45,6 @@ const Home = () => {
             <a href="#contact" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-md mdl:text-lg text-white border-2 border-designColor rounded-md hover:bg-designColor sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
               Contact Me
             </a>
-          
-
-          {/* <Fade top cascade duration={700} delay={400}>
-            <div className="flex flex-col gap-0 justify-between" >
-              <h2 className="text-base uppercase font-titleFont mt-[-5px] mb-4">Expertise In</h2>
-              <div className="flex  gap-4">
-                <span className="bannerIcon">
-                  <FaJava />
-                </span>
-                <span className="bannerIcon">
-                  <SiSpringboot />
-                </span>
-                <span className="bannerIcon">
-                  <FaReact />
-                </span>
-                <span className="bannerIcon">
-                  <GrMysql />
-                </span>
-              </div>
-            </div>
-            </Fade> */}
         </div>
         </Fade>
 
