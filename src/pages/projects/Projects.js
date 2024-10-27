@@ -3,13 +3,14 @@ import { FaCss3Alt, FaFigma, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icon
 import { GrMysql } from 'react-icons/gr'
 import { SiMongodb, SiSpringboot } from 'react-icons/si'
 import { projectsC1, projectsC2, projectsC3 } from '../../assests'
+import { PageTitle } from '../../components/PageTitle/PageTitle'
 import ProjectCard from './ProjectCard'
 
 const Projects = () => {
     return (
         <section id='projects' className="w-full  py-5  border-b-[1px] border-b-black">
-            <div className='flex justify-center  items-center'>
-                <h1 className="text-designColor text-3xl mdl:text-5xl font-bold  mdl:py-5">My <span className='text-white'>Projects</span> </h1>
+            <div className='flex flex-col items-center text-white py-10'>
+            <PageTitle text1="My Works" text2="Featured Products" />
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-4 mdl:mt-8 gap-10 xl:gap-14'>
                 <ProjectCard

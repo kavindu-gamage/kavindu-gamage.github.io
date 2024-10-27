@@ -6,6 +6,7 @@ import Footer from "./pages/footer/Footer";
 import AboutMe from "./pages/getToKnow/AboutMe";
 import Banner from "./pages/home/Home";
 import Navbar from "./pages/navbar/Navbar";
+import Projects from "./pages/projects/Projects";
 import Services from "./pages/services/Services";
 import Technologies from "./pages/skills/Technologies";
 import WorkExperience from "./pages/workExperience/WorkExperience";
@@ -44,6 +45,7 @@ function App() {
       <Banner/>
       <Services/>
       <AboutMe/>
+      <Projects/>
       <WorkExperience/>
      <Technologies/>
      <ConnectWithMe/>

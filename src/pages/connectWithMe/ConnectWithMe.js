@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { avatar1, pLogo } from "../../assests";
-import { appendRowToSheet } from "../../googleSheet";
 
 
 const ConnectWithMe = () => {
@@ -30,14 +29,28 @@ const ConnectWithMe = () => {
   const sendEmail = async (e) => {
     e.preventDefault();
 
-    await appendRowToSheet(formData);
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
+    try {
+      const response = await fetch('/api/google-sheet', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    setSent(true);
+      if (response.ok) {
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
+        setSent(true);
+      } else {
+        console.error('Failed to send message');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+    }
   };
 
   return (
