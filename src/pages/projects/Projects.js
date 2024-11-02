@@ -82,7 +82,7 @@ const Projects = () => {
         techStack: ["Express.js", "Node.js", "React.js", "MongoDB"],
         link: "https://github.com/kavindu-gamage/e-commerce-web-back-end",
       },
-    // Add more projects here if needed
+
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -103,7 +103,7 @@ const Projects = () => {
     if (isCarouselMode) {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
-      }, 2000);
+      }, 25000);
       return () => clearInterval(interval);
     }
   }, [isCarouselMode, projects.length]);
