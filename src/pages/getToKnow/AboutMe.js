@@ -20,9 +20,9 @@ const AboutMe = () => {
       </div>
 
       {/* Responsive Section */}
-      <div className="w-full flex flex-col lg:flex-row gap-40">
+      <div className="w-full flex flex-col lg:flex-row gap-5 lgl:gap-40">
         {/* Profile Image */}
-        <div className="w-full lg:w-1/3 flex justify-center items-center">
+        <div className="w-full lg:w-2/5 flex justify-center items-center">
           <img
             src={profilePhoto3}
             alt="Profile"
@@ -33,9 +33,9 @@ const AboutMe = () => {
         {/* Education Section */}
         <div className="w-full lg:w-2/3 flex flex-col justify-start items-start">
           {/* Education Title */}
-          <h2 className="text-2xl font-bold text-[#0097b2] mb-4">Education</h2>
+          <h2 className="text-2xl font-bold text-designColor mb-4">Education</h2>
 
-          <div className="w-full max-w-[500px] p-4 bg-black/20 rounded-lg shadow-md space-y-6">
+          <div className="w-full max-w-[500px] p-4 bg-black/20 rounded-lg shadow-md space-y-8">
             <div className="relative pl-8">
               <div className="absolute left-0 top-0 w-[2px] h-full bg-white"></div>
               <div className="flex items-center space-x-2">
@@ -43,17 +43,17 @@ const AboutMe = () => {
                   icon={faGraduationCap}
                   className="text-white relative z-10"
                 />
-                <div className="text-white text-xs font-extralight">
-                  2022 - Present
+                <div className="text-lightText text-xs font-extralight ">
+                  Nov 2018 – Jul 2023
                 </div>
               </div>
-              <div className="text-[#0097b2] text-sm font-bold">
-                Academic Degree
+              <div className="text-[#0097b2] text-sm font-bold mt-2">
+              Bachelor of the Science of Engineering Honours
               </div>
               <div className="w-full text-white text-sm">
-                Lorem ipsum dolor sit amet quo ei simul
+                University of Moratuwa
                 <br />
-                congue exerci ad nec admodum perfecto.
+                Moratuwa, Sri Lanka
               </div>
             </div>
 
@@ -65,17 +65,17 @@ const AboutMe = () => {
                   icon={faGraduationCap}
                   className="text-white relative z-10"
                 />
-                <div className="text-white text-xs font-extralight">
-                  2022 - Present
+                <div className="text-lightText text-xs font-extralight">
+                Dec 2022 – Aug 2023
                 </div>
               </div>
-              <div className="text-[#0097b2] text-sm font-bold">
-                Academic Degree
+              <div className="text-[#0097b2] text-sm font-bold mt-2">
+              Diploma in Software Engineering
               </div>
               <div className="w-full text-white text-sm">
-                Lorem ipsum dolor sit amet quo ei simul
+              Institute of Software Engineering
                 <br />
-                congue exerci ad nec admodum perfecto.
+                Panadura, Sri Lanka
               </div>
             </div>
 
@@ -87,17 +87,17 @@ const AboutMe = () => {
                   icon={faGraduationCap}
                   className="text-white relative z-10"
                 />
-                <div className="text-white text-xs font-extralight">
-                  2022 - Present
+                <div className="text-lightText text-xs font-extralight">
+                Mar 2015 – Aug 2017
                 </div>
               </div>
-              <div className="text-[#0097b2] text-sm font-bold">
-                Academic Degree
+              <div className="text-[#0097b2] text-sm font-bold mt-2">
+                GCE Advanced Level Examination - Physical Science Stream
               </div>
               <div className="w-full text-white text-sm">
-                Lorem ipsum dolor sit amet quo ei simul
+              Walasmulla National School
                 <br />
-                congue exerci ad nec admodum perfecto.
+                Walasmulla, Sri Lanka
               </div>
             </div>
           </div>
