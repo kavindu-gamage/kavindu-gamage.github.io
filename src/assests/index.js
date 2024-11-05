@@ -6,7 +6,9 @@ import Rota from "./images/ExLogos/Rota.png";
 import Virtusa from "./images/ExLogos/Virtusa.png";
 import Watermark from "./images/ExLogos/Watermark.png";
 import White from "./images/ExLogos/White.png";
+import App from "./images/IconsNew/app.png";
 import Crown from "./images/IconsNew/crown.png";
+import Globe from "./images/IconsNew/globe.png";
 import projectsC1 from "./images/ProjectCovers/projectsC1.png";
 import projectsC2 from "./images/ProjectCovers/projectsC2.png";
 import projectsC3 from "./images/ProjectCovers/projectsC3.png";
@@ -33,7 +35,7 @@ import MySql from "./images/skillsIcons/mysql.png";
 import Reactj from "./images/skillsIcons/react.png";
 import TypeScript from "./images/skillsIcons/typescript.png";
 export {
-    Aws, Blue, Crown, Docker, Express, GitLab, Go, GoogleCloud, Java, JavaScript, MongoDb, MySql, Node, Reactj, Rota, Spring, TypeScript, Virtusa, Watermark, White, avatar1, homeCover, ijse, pLogo, profilePhoto,
+    App, Aws, Blue, Crown, Docker, Express, GitLab, Globe, Go, GoogleCloud, Java, JavaScript, MongoDb, MySql, Node, Reactj, Rota, Spring, TypeScript, Virtusa, Watermark, White, avatar1, homeCover, ijse, pLogo, profilePhoto,
     profilePhoto2,
     profilePhoto3,
     projectsC1,
