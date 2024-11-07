@@ -30,7 +30,7 @@ const ConnectWithMe = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/google-sheet', {
+      const response = await fetch('http://localhost:4000/api/google-sheet', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

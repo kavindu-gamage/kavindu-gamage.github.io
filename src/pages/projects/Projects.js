@@ -103,7 +103,7 @@ const Projects = () => {
     if (isCarouselMode) {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
-      }, 25000);
+      }, 2500);
       return () => clearInterval(interval);
     }
   }, [isCarouselMode, projects.length]);
