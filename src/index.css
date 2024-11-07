@@ -1,61 +1,68 @@
+/* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Tailwind Directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
+  /* Custom Utility Classes for Icons */
+  .bannerIcon {
+    @apply w-16 h-16 bg-black bg-opacity-25 text-gray-100 text-3xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+  }
 
-    .bannerIcon {
-        @apply w-16 h-16 bg-black bg-opacity-25 text-gray-100 text-3xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
-    }
+  .bannerIconSocial {
+    @apply w-12 h-12 bg-black bg-opacity-25 border border-gray-800 text-gray-200 text-xl inline-flex items-center justify-center rounded-full shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+  }
 
-    .bannerIconSocial {
-        @apply w-12 h-12 bg-black bg-opacity-25 border border-gray-800 text-gray-200 text-xl inline-flex items-center justify-center rounded-full shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
-    }
+  .projectIcon {
+    @apply w-12 h-12 bg-black bg-opacity-25 border border-gray-800 text-gray-200 text-xl inline-flex items-center justify-center rounded-full shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+  }
 
-    .projectIcon {
-        @apply w-12 h-12 bg-black bg-opacity-25 border border-gray-800 text-gray-200 text-xl inline-flex items-center justify-center rounded-full shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
-    }
+  .contactIcon {
+    @apply w-8 h-8 mdl:w-12 mdl:h-12 bg-black bg-opacity-25 text-gray-100 text-lg mdl:text-2xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+  }
 
-    .contactIcon {
-        @apply w-8 h-8 mdl:w-12 mdl:h-12 bg-black bg-opacity-25 text-gray-100 text-lg mdl:text-2xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
-    }
+  .bgOpacity {
+    @apply bg-black bg-opacity-40;
+  }
 
-    .bgOpacity {
-        @apply bg-black bg-opacity-40;
-    }
-
-    .lanIcon{
-        @apply min-w-max border-b-4   bg-black bg-opacity-25 border-designColor p-2  rounded text-center font-extralight text-xs mdl:text-sm shadow-shadowOne hover:bg-opacity-50 hover:-translate-y-1 transition-all hover:text-white;
-    }
-
-/* Tailwind CSS Animation and Hover */
-.service-card {
-    @apply opacity-0 scale-95 transform transition-transform duration-500 ease-in-out;
-    animation: fadeInUp 0.5s forwards ease-in-out;
-    /* Ensure visibility is triggered on render */
-    opacity: 1;
+  .lanIcon {
+    @apply min-w-max border-b-4 bg-black bg-opacity-25 border-designColor p-2 rounded text-center font-extralight text-xs mdl:text-sm shadow-shadowOne hover:bg-opacity-50 hover:-translate-y-1 transition-all hover:text-white;
+  }
+  
 }
 
-.service-card:hover {
-    @apply scale-105 shadow-lg bg-opacity-80 transition-shadow;
-}
-
-/* Custom Keyframe Animation for Fade-in and Scale-up */
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(20px) scale(0.95);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
-
-
-}
-
+/* Active State Class */
 .active {
-    color: white;
+  color: white;
 }
+
+.flip-card {
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    transform-style: preserve-3d;
+    transition: transform 0.7s;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+  
+  
