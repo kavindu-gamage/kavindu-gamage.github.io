@@ -12,6 +12,7 @@ import Globe from "./images/IconsNew/globe.png";
 import projectsC1 from "./images/ProjectCovers/projectsC1.png";
 import projectsC2 from "./images/ProjectCovers/projectsC2.png";
 import projectsC3 from "./images/ProjectCovers/projectsC3.png";
+import projectsC4 from "./images/ProjectCovers/projectsC4.png";
 import tMac from "./images/achLogo/tMac.jpg";
 import homeCover from "./images/homeCover.png";
 import pLogo from "./images/pLogo.png";
@@ -34,12 +35,13 @@ import MongoDb from "./images/skillsIcons/mongodb.png";
 import MySql from "./images/skillsIcons/mysql.png";
 import Reactj from "./images/skillsIcons/react.png";
 import TypeScript from "./images/skillsIcons/typescript.png";
+
 export {
     App, Aws, Blue, Crown, Docker, Express, GitLab, Globe, Go, GoogleCloud, Java, JavaScript, MongoDb, MySql, Node, Reactj, Rota, Spring, TypeScript, Virtusa, Watermark, White, avatar1, homeCover, ijse, pLogo, profilePhoto,
     profilePhoto2,
     profilePhoto3,
     projectsC1,
     projectsC2,
-    projectsC3, scl, tMac, uni
+    projectsC3, projectsC4, scl, tMac, uni
 };
 

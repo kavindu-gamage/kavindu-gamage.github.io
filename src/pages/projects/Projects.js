@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { projectsC1, projectsC2, projectsC3 } from "../../assests";
+import { projectsC1, projectsC2, projectsC3, projectsC4 } from "../../assests";
 import { PageTitle } from "../../components/PageTitle/PageTitle";
 import ProjectCard from "./ProjectCard";
 
@@ -44,14 +44,14 @@ const Projects = () => {
       title: "Hotel Reservation System",
       des: "An online hotel reservation system with a user-friendly interface, admin dashboard, role-based access control, and room filtering capabilities.",
       src: projectsC1,
-      techStack: ["React.js", "Node.js", "Express.js"],
+      techStack: ["Spring Boot", "React.js", "MySQL"],
       link: "https://github.com/kavindu-gamage/Hotel-Reservation-System",
     },
     {
       title: "Burger Shop Website",
       des: "A responsive one-page website for a burger shop, featuring sections for Home, About, Menu, Offers, and Locations, providing customers with an enticing online experience",
       src: projectsC3,
-      techStack: ["React.js", "Node.js", "Express.js"],
+      techStack: ["HTML", "CSS", "Java Script"],
       link: "https://github.com/kavindu-gamage/burgerShop-landingPage",
     },
     {
@@ -62,27 +62,12 @@ const Projects = () => {
       link: "https://github.com/kavindu-gamage/e-commerce-web-back-end",
     },
     {
-        title: "Hotel Reservation System",
-        des: "An online hotel reservation system with a user-friendly interface, admin dashboard, role-based access control, and room filtering capabilities.",
-        src: projectsC1,
-        techStack: ["React.js", "Node.js", "Express.js"],
-        link: "https://github.com/kavindu-gamage/Hotel-Reservation-System",
-      },
-      {
-        title: "Burger Shop Website",
-        des: "A responsive one-page website for a burger shop, featuring sections for Home, About, Menu, Offers, and Locations, providing customers with an enticing online experience",
-        src: projectsC3,
-        techStack: ["React.js", "Node.js", "Express.js"],
-        link: "https://github.com/kavindu-gamage/burgerShop-landingPage",
-      },
-      {
-        title: "E-Commerce Web Application",
-        des: "A user-friendly E-Commerce web application with essential features like user profiles, shopping carts, payment methods, and exploring products.",
-        src: projectsC2,
+        title: "Job Portal System",
+        des: "A job portal for seekers to search, apply, and track applications. Companies can post jobs, manage profiles, and monitor applications. Seekers get alerts and career tips.",
+        src: projectsC4,
         techStack: ["Express.js", "Node.js", "React.js", "MongoDB"],
-        link: "https://github.com/kavindu-gamage/e-commerce-web-back-end",
+        link: "https://github.com/kavindu-gamage/FindVerve-FrontEnd",
       },
-
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
