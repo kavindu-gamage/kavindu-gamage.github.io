@@ -22,6 +22,8 @@ module.exports = {
         lightText: "#c4cfde",
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
         designColor: "#0097B2",
+        borderColor:"#D9D9D9",
+        buttonColor:"#999999",
       },
       boxShadow: {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
@@ -33,6 +35,17 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities(
+        {
+          '.transform-style-preserve-3d': {
+            'transform-style': 'preserve-3d',
+          },
+        },
+        ['responsive', 'hover']
+      );
+    },
+  ],
 }
 

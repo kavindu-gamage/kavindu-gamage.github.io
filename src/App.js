@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 
 import { TERipple } from "tw-elements-react";
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import Experience from "./components/experience/Experience";
-import Footer from "./components/footer/Footer";
-import Banner from "./components/home/Home";
-import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects/Projects";
+import ConnectWithMe from "./pages/connectWithMe/ConnectWithMe";
+import Footer from "./pages/footer/Footer";
+import AboutMe from "./pages/getToKnow/AboutMe";
+import Banner from "./pages/home/Home";
+import Navbar from "./pages/navbar/Navbar";
+import Projects from "./pages/projects/Projects";
+import Services from "./pages/services/Services";
+import Technologies from "./pages/skills/Technologies";
+import WorkExperience from "./pages/workExperience/WorkExperience";
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -41,10 +43,17 @@ function App() {
     <div className="max-w-screen-2xl mx-auto mdl:px-16 px-10">
       <Navbar/>
       <Banner/>
-      <About/>
+      <Services/>
+      <AboutMe/>
+      <Projects/>
+      <WorkExperience/>
+     <Technologies/>
+     <ConnectWithMe/>
+     
+      {/* <About/>
       <Projects/>
       <Experience/>
-      <Contact/>
+      <Contact/> */}
       <Footer/>
 
     </div>
