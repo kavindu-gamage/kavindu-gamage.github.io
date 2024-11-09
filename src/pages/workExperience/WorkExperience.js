@@ -15,10 +15,7 @@ const WorkExperience = () => {
       period: "Aug 2024 - Present · Full-time",
       techStack: ["Java", "PL/SQL"],
       description: [
-        "Improving overall website performance for mobile users.",
-        "Collaborating with back-end developers and web designers to improve usability.",
-        "Adding voice search features for mobile app.",
-        "Developing an admin panel to manage contents, users, products, and more.",
+        "Currently working on the Service Management team, developing features related to service handling in IFS Cloud.",
       ],
     },
     CentralFinance: {
@@ -28,10 +25,13 @@ const WorkExperience = () => {
       period: "May 2024 - Aug 20204 · Full-time",
       techStack: ["Java", "Spring Boot", "MySQL", "AWS"],
       description: [
-        "Worked on the backend development of an HR system, specifically focusing on the module for recording em- ployees’ daily attendance using geolocation technology. This includes features such as real-time location tracking, secure login, and biometric verification to ensure accurate and reliable attendance records.",
-        "Worked on improving database performance.",
-        "Collaborated with team members to migrate legacy systems.",
-        "Enhanced security features for web applications.",
+        "Worked on the backend development of the Central Finance TapT App, focused on recording daily employee attendance at Central Finance.",
+        "Led the backend development, utilizing layered architecture principles.",
+        "Implemented JWT authentication by integrating Active Directory (AD) login into the app.",
+        "Designed the Employee Information Module for Central Finance's Human Resources web application, identifying relationships between components.",
+        "Developed the backend code for the Employee Information Module in the HR web application.",
+        "Used AWS CodeCommit for seamless version control during development.",
+        "Employed MySQL as the primary database, writing queries for data retrieval."
       ],
     },
     Virtusa: {
